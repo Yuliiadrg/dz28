@@ -1,0 +1,80 @@
+.title {
+    color: rgb(228, 68, 239);
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.wrapper--first {
+    padding: 28px;
+    border-radius: 20px;
+    background-color: rgb(65, 195, 163);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.descript--first {
+    color: white;
+}
+.wrapper--second {
+    padding: 28px;
+    border-radius: 20px;
+    background-color: rgb(230, 89, 134);
+}
+.descript--second {
+    color: white;
+}
+.btn--amount {
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(6, 131, 100);
+}
+.btn--amount:hover {
+    background-color: rgb(4, 94, 71);
+}
+.btn--delete_item {
+    color: white;
+    padding: 12px;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(192, 30, 81);
+}
+.btn--delete_item:hover {
+    background-color: rgb(164, 13, 61);
+}
+input {
+    width: 48px;
+}
+::placeholder {
+    color: rgb(228, 68, 239);
+    opacity: 1;
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    color: white;
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+}
+li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+}
